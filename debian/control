@@ -3,7 +3,8 @@ Section: utils
 Priority: optional
 Maintainer: Robert Ian Hawdon <mail@robertianhawdon.me.uk>
 Build-Depends: debhelper (>= 8.0.0),
-               dh-autoreconf
+               dh-autoreconf,
+               ncurses-dev
 Standards-Version: 3.9.4
 Homepage: https://github.com/roberthawdon/dfshow
 #Vcs-Git: git://git.debian.org/collab-maint/dfshow.git
