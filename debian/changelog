@@ -1,0 +1,32 @@
+dfshow (0.4.0-1~ppa1); urgency=low
+
+  * Added sf for viewing files
+  * Small bug fixes in show
+
+ -- Robert Ian Hawdon <mail@robertianhawdon.me.uk>  Mon, 15 Oct 2018 21:05:37 +0000
+
+dfshow (0.3.6-1~ppa1); urgency=low
+
+  * Reordering keeps the highlighted file focused
+  * Resolved trailing slash navigational issues #33
+  * Bugfixes
+
+ -- Robert Ian Hawdon <mail@robertianhawdon.me.uk>  Thu, 16 Aug 2018 21:58:37 +0000
+
+dfshow (0.3.5-1~ppa1); urgency=low
+
+  * Cleaning up code
+
+ -- Robert Ian Hawdon <mail@robertianhawdon.me.uk>  Fri, 10 Aug 2018 20:20:14 +0000
+
+dfshow (0.3.2-2~ppa1); urgency=low
+
+  * Adding missing build dependencies 
+
+ -- Robert Ian Hawdon <mail@robertianhawdon.me.uk>  Tue, 07 Aug 2018 19:54:32 +0000
+
+dfshow (0.3.2-1~ppa1); urgency=low
+
+  * Initial release 
+
+ -- Robert Ian Hawdon <mail@robertianhawdon.me.uk>  Tue, 07 Aug 2018 18:55:49 +0000
