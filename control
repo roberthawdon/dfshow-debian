@@ -1,0 +1,14 @@
+Source: dfshow
+Section: utils
+Priority: optional
+Maintainer: Robert Ian Hawdon <mail@robertianhawdon.me.uk>
+Build-Depends: debhelper (>= 8.0.0)
+Standards-Version: 3.9.4
+Homepage: https://github.com/roberthawdon/dfshow
+#Vcs-Git: git://git.debian.org/collab-maint/dfshow.git
+#Vcs-Browser: http://git.debian.org/?p=collab-maint/dfshow.git;a=summary
+
+Package: dfshow
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: An interactive directory/file browser written for Unix-like systems.
