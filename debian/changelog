@@ -1,3 +1,11 @@
+dfshow (0.4.1-1~ppa1) unstable; urgency=low
+
+  * Fixes memory leak when browsing directories.
+  * Now correctly displays dead symlinks in `--color` mode.
+  * Now displays the execution status of symlink targets in `--color` mode.
+
+ -- Robert Ian Hawdon <mail@robertianhawdon.me.uk>  Fri, 02 Nov 2018 09:01:37 +0000
+
 dfshow (0.4.0-1~ppa1) unstable; urgency=low
 
   * Added sf for viewing files
