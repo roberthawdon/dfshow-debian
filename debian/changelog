@@ -1,3 +1,14 @@
+dfshow (0.4.2-1~ppa1) unstable; urgency=low
+
+  * Fixes function bar corruption due to incorrect display of -> in symlinks
+  * Adds DFS_THEME environment variable to allow themes to be consistent
+    between applications
+  * Massively improved the efficiency of large sized file browsing in `sf`
+  * Fixed navigation issue in `sf` when using the position command beyond the
+    end of file.
+
+ -- Robert Ian Hawdon <mail@robertianhawdon.me.uk>  Thu, 15 Nov 2018 15:11:01 +0000
+
 dfshow (0.4.1-1~ppa1) unstable; urgency=low
 
   * Fixes memory leak when browsing directories.
