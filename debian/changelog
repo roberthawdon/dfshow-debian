@@ -1,3 +1,12 @@
+dfshow (0.4.4-1~ppa1) unstable; urgency=low
+
+  * Fix crash when navigating files in `sf` on FreeBSD and macOS.
+  * Fix crash when navigating to invalid directory from the final global menu
+    in `show`.
+  * Fix macOS builds.
+
+ -- Robert Ian Hawdon <mail@robertianhawdon.me.uk>  Wed, 22 Nov 2018 15:33:44 +0000
+
 dfshow (0.4.3-1~ppa1) unstable; urgency=low
 
   * Improves UTF-8 support throughout the applications.
