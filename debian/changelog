@@ -5,7 +5,7 @@ dfshow (0.4.4-1~ppa1) unstable; urgency=low
     in `show`.
   * Fix macOS builds.
 
- -- Robert Ian Hawdon <mail@robertianhawdon.me.uk>  Wed, 22 Nov 2018 15:33:44 +0000
+ -- Robert Ian Hawdon <mail@robertianhawdon.me.uk>  Thu, 22 Nov 2018 15:33:44 +0000
 
 dfshow (0.4.3-1~ppa1) unstable; urgency=low
 
