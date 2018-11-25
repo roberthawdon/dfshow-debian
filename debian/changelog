@@ -4,7 +4,7 @@ dfshow (0.4.5-1~ppa1) unstable; urgency=low
   * Fix `sf` taking the user back to the start of the file if aborting the
     Position command or entering a null value.
 
- -- Robert Ian Hawdon <mail@robertianhawdon.me.uk>  Thu, 25 Nov 2018 19:10:32 +0000
+ -- Robert Ian Hawdon <mail@robertianhawdon.me.uk>  Sun, 25 Nov 2018 19:10:32 +0000
 
 dfshow (0.4.4-1~ppa1) unstable; urgency=low
 
