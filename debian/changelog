@@ -1,3 +1,9 @@
+dfshow (0.4.6-1~ppa1) unstable; urgency=low
+
+  * Fix spacing when using UTF-8 characters in dates.
+
+ -- Robert Ian Hawdon <mail@robertianhawdon.me.uk>  Thu, 29 Nov 2018 22:13:57 +0000
+
 dfshow (0.4.5-1~ppa1) unstable; urgency=low
 
   * Fix input boxes entering junk when using unused navigation keys.
