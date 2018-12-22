@@ -5,7 +5,7 @@ Maintainer: Robert Ian Hawdon <mail@robertianhawdon.me.uk>
 Build-Depends: debhelper (>= 8.0.0),
                dh-autoreconf,
                ncurses-dev,
-               libncursesw5-dev
+               libncursesw5-dev,
                libconfig-dev
 Standards-Version: 3.9.4
 Homepage: https://github.com/roberthawdon/dfshow
