@@ -1,3 +1,14 @@
+dfshow (0.5.0-1~ppa1) unstable; urgency=low
+
+  * Early theme builder.
+  * Ability to save and load themes within show.
+  * Support for configuration files.
+  * Support for default terminal colors.
+  * Improved support for 8 color terminals.
+  * Navigation improvements when deleting or renaming files.
+
+ -- Robert Ian Hawdon <mail@robertianhawdon.me.uk>  Sat, 22 Dec 2018 21:56:32 +0000
+
 dfshow (0.4.6-1~ppa1) unstable; urgency=low
 
   * Fix spacing when using UTF-8 characters in dates.
