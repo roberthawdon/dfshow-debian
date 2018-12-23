@@ -1,3 +1,10 @@
+dfshow (0.5.1-1~ppa1) unstable; urgency=low
+
+  * Removed non-functional --monochrome command line argument.
+  * Added ReadTheDocs documentation. 
+
+ -- Robert Ian Hawdon <mail@robertianhawdon.me.uk>  Sat, 23 Dec 2018 22:47:24 +0000
+
 dfshow (0.5.0-1~ppa1) unstable; urgency=low
 
   * Early theme builder.
