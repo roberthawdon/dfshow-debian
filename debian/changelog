@@ -1,3 +1,10 @@
+dfshow (0.5.3-1~ppa1) unstable; urgency=low
+
+  * Fixed delete file display overflow bug
+  * Updated documentation
+
+ -- Robert Ian Hawdon <mail@robertianhawdon.me.uk>  Thu, 03 Jan 2019 20:40:18 +0000
+
 dfshow (0.5.2-1~ppa1) unstable; urgency=low
 
   * Added --show-on-enter option for show as both a command line option and a
