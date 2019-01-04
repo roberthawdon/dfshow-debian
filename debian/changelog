@@ -1,3 +1,12 @@
+dfshow (0.5.4-1~ppa1) unstable; urgency=low
+
+  * Fixed issue where occasionally toggling hidden files would push the cursor and
+    selected file off the bottom of the screen.
+  * Added function to display parent show processes.
+  * Updated documentation
+
+ -- Robert Ian Hawdon <mail@robertianhawdon.me.uk>  Fri, 04 Jan 2019 21:30:52 +0000
+
 dfshow (0.5.3-1~ppa1) unstable; urgency=low
 
   * Fixed delete file display overflow bug
