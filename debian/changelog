@@ -1,3 +1,10 @@
+dfshow (0.5.5-1~ppa1) unstable; urgency=low
+
+  * Prevents applications quitting when CTRL-C is called by default
+  * Fixes a bug which allowed sf to treat directories as files.
+
+ -- Robert Ian Hawdon <mail@robertianhawdon.me.uk>  Sun, 06 Jan 2019 22:06:33 +0000
+
 dfshow (0.5.4-1~ppa1) unstable; urgency=low
 
   * Fixed issue where occasionally toggling hidden files would push the cursor and
