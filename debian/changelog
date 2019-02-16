@@ -1,3 +1,18 @@
+dfshow (0.6.0-1~ppa1) unstable; urgency=low
+
+  * Added ability to create Symbolic and Hard links
+  * Added ability to update timestamps of files (touch)
+  * Added ability to create new files (touch file)
+  * Added --full-time argument to show
+  * Rebuilt menu system which automatically adjusts to window size by cleanly
+    removing items if the window is too small.
+  * Fixed bug that would crash show on window resize
+  * Fixed bug that would crash `show` if a single file was copied to a
+    non-existent location 
+  * Fixed ESC on modify menus from removing all permissions
+
+ -- Robert Ian Hawdon <mail@robertianhawdon.me.uk>  Sat, 16 Feb 2019 16:45:36 +0000
+
 dfshow (0.5.5-1~ppa1) unstable; urgency=low
 
   * Prevents applications quitting when CTRL-C is called by default
