@@ -1,3 +1,11 @@
+dfshow (0.6.1-1~ppa1) unstable; urgency=low
+
+  * Fix intermittent segfault in macOS when creating Symlinks with a relative
+    path
+  * General memory improvements
+
+ -- Robert Ian Hawdon <mail@robertianhawdon.me.uk>  Sun, 17 Feb 2019 23:20:42 +0000
+
 dfshow (0.6.0-1~ppa1) unstable; urgency=low
 
   * Added ability to create Symbolic and Hard links
