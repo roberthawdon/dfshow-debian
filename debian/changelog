@@ -1,3 +1,13 @@
+dfshow (0.6.2-1~ppa1) unstable; urgency=low
+
+  * Added ability to create parent directories if they don't exist.
+  * Added ability to delete empty directories.
+  * Fixed bug where show would crash if returning from shell to a deleted
+    directory.
+  * Fixed bug where deleted directories in the history weren't skipped.
+
+ -- Robert Ian Hawdon <mail@robertianhawdon.me.uk>  Sat, 02 Mar 2019 18:25:48 +0000
+
 dfshow (0.6.1-1~ppa1) unstable; urgency=low
 
   * Fix intermittent segfault in macOS when creating Symlinks with a relative
