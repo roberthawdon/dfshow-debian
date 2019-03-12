@@ -1,3 +1,11 @@
+dfshow (0.6.3-1~ppa1) unstable; urgency=low
+
+  * Added missing documentation.
+  * Adds the ability to use Home and End keys on text inputs.
+  * Adds mitigation for Google Drive Stream crashing show on macOS.
+
+ -- Robert Ian Hawdon <mail@robertianhawdon.me.uk>  Tue, 12 Mar 2019 22:20:31 +0000
+
 dfshow (0.6.2-1~ppa1) unstable; urgency=low
 
   * Added ability to create parent directories if they don't exist.
