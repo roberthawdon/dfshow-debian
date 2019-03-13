@@ -1,3 +1,9 @@
+dfshow (0.6.4-1~ppa1) unstable; urgency=low
+
+  * Fixed occasional buffer overflow when accessing /dev.
+
+ -- Robert Ian Hawdon <mail@robertianhawdon.me.uk>  Wed, 13 Mar 2019 22:57:54 +0000
+
 dfshow (0.6.3-1~ppa1) unstable; urgency=low
 
   * Added missing documentation.
