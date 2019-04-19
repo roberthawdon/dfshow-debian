@@ -1,3 +1,18 @@
+dfshow (0.7.0-1~ppa1) unstable; urgency=low
+
+  * Added configuration menus in show and sf.
+  * Added ability to set default theme.
+  * Added the remainder of the color options to the color menu.
+  * Improved file wildcard search.
+  * Fixed ability to save over old theme.
+  * Fixed display issue when marking an item at the bottom of the page when
+    marked is set to "auto".
+  * Fixed display issue where text input would wrap onto the next line.
+  * Fixed buffer overflow when setting the owner column to only show Group
+    and Author.
+
+ -- Robert Ian Hawdon <mail@robertianhawdon.me.uk>  Fri, 19 Apr 2019 16:47:23 +0000
+
 dfshow (0.6.4-1~ppa1) unstable; urgency=low
 
   * Fixed occasional buffer overflow when accessing /dev.
