@@ -1,3 +1,11 @@
+dfshow (0.7.1-1~ppa1) unstable; urgency=low
+
+  * Addresses issue where copied files did not carry permissions over from the
+    original
+  * Minor documentation improvements
+
+ -- Robert Ian Hawdon <mail@robertianhawdon.me.uk>  Tue, 14 May 2019 19:24:07 +0000
+
 dfshow (0.7.0-1~ppa1) unstable; urgency=low
 
   * Added configuration menus in show and sf.
