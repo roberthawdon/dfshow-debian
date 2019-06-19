@@ -1,3 +1,18 @@
+dfshow (0.8.0-1~ppa1) unstable; urgency=low
+
+  * Fixed issue where show would allow browsing into directories without
+    execute permissions.
+  * Fixed user getting locked into an error message when trying to specify an
+    invalid user or group in show.
+  * Fixed bug that would cause show to crash when selected "unsorted" file
+    sorting from the configuration menu.
+  * Switched indicator in color and configuration menus for universal
+    display compatibility.
+  * Improved memory footprint.
+  * Beta status.
+
+ -- Robert Ian Hawdon <mail@robertianhawdon.me.uk>  Wed, 19 Jun 2019 21:35:06 +0000
+
 dfshow (0.7.1-1~ppa1) unstable; urgency=low
 
   * Addresses issue where copied files did not carry permissions over from the
