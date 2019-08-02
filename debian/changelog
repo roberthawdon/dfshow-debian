@@ -1,3 +1,10 @@
+dfshow (0.8.1-1~ppa1) unstable; urgency=low
+
+  * Addresses the issue where sometimes sorting by size would not always work
+    correctly.
+
+ -- Robert Ian Hawdon <mail@robertianhawdon.me.uk>  Fri, 02 Aug 2019 18:28:47 +0000
+
 dfshow (0.8.0-1~ppa1) unstable; urgency=low
 
   * Fixed issue where show would allow browsing into directories without
