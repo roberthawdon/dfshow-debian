@@ -1,3 +1,10 @@
+dfshow (0.8.2-1~ppa1) unstable; urgency=low
+
+  * Addresses memory issue when using hunt function.
+  * Defaults group input to be the value of owner.
+
+ -- Robert Ian Hawdon <mail@robertianhawdon.me.uk>  Tue, 03 Sep 2019 19:55:08 +0000
+
 dfshow (0.8.1-1~ppa1) unstable; urgency=low
 
   * Addresses the issue where sometimes sorting by size would not always work
