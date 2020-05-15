@@ -12,7 +12,7 @@ override_dh_auto_configure:
 
 override_dh_install:
 	dh_install
-	install -Dm644 misc/auto-completion/bash/show-completion.bash $(DESTDIR)$(PREFIX)/share/bash-completion/completions/show-completion.bash
-	install -Dm644 misc/auto-completion/bash/sf-completion.bash $(DESTDIR)$(PREFIX)/share/bash-completion/completions/sf-completion.bash
-	install -Dm644 misc/auto-completion/zsh/_show $(DESTDIR)$(PREFIX)/share/zsh/site-functions/_show
-	install -Dm644 misc/auto-completion/zsh/_sf $(DESTDIR)$(PREFIX)/share/zsh/site-functions/_sf
+	install -Dm644 misc/auto-completion/bash/show-completion.bash debian/package/share/bash-completion/completions/show-completion.bash
+	install -Dm644 misc/auto-completion/bash/sf-completion.bash debian/package/share/bash-completion/completions/sf-completion.bash
+	install -Dm644 misc/auto-completion/zsh/_show debian/package/share/zsh/site-functions/_show
+	install -Dm644 misc/auto-completion/zsh/_sf debian/package/share/zsh/site-functions/_sf
