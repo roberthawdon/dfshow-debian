@@ -9,3 +9,10 @@
 
 override_dh_auto_configure:
 	dh_auto_configure -- --prefix=/usr --sysconfdir=/etc --datadir=/usr/share 
+
+override_dh_install:
+	dh_install
+	install -Dm644 misc/auto-completion/bash/show-completion.bash $(DESTDIR)$(PREFIX)/share/bash-completion/completions/show-completion.bash
+	install -Dm644 misc/auto-completion/bash/sf-completion.bash $(DESTDIR)$(PREFIX)/share/bash-completion/completions/sf-completion.bash
+	install -Dm644 misc/auto-completion/zsh/_show $(DESTDIR)$(PREFIX)/share/zsh/site-functions/_show
+	install -Dm644 misc/auto-completion/zsh/_sf $(DESTDIR)$(PREFIX)/share/zsh/site-functions/_sf
