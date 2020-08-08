@@ -1,3 +1,13 @@
+dfshow (0.9.1-1~ppa1) unstable; urgency=low
+
+  * Fixes issue where F12 would quit show.
+  * Fixes issue where hiding dot files whilst running show may cause a black
+    screen.
+  * Fixes issue where the display width was not reset between directories leading
+    to horizontal scrolling.
+
+ -- Robert Ian Hawdon <mail@robertianhawdon.me.uk>  Sat, 08 Aug 2020 04:28:04 +0100
+
 dfshow (0.9.0-1~ppa1) unstable; urgency=low
 
   * Added ACL & Extended Attribute indicators in show.
@@ -24,7 +34,7 @@ dfshow (0.9.0-1~ppa1) unstable; urgency=low
     some systems in show.
   * Various small bug fixes.
 
- -- Robert Ian Hawdon <mail@robertianhawdon.me.uk>  Tue, 15 Sep 2020 22:06:42 +0100
+ -- Robert Ian Hawdon <mail@robertianhawdon.me.uk>  Tue, 15 May 2020 22:06:42 +0100
 
 dfshow (0.8.2-1~ppa1) unstable; urgency=low
 
