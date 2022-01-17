@@ -1,3 +1,13 @@
+dfshow (0.9.4-1~ppa1) unstable; urgency=low
+
+  * Fixes bug which prevents show launching editor or pager set by ENV values
+  * Corrects documentation for defining pager and editor
+  * Fixes issue on MacOS where memory is incorrectly allocated when using find
+    functions (find in sf and hunt in show)
+  * General bug fixes and code optimisation
+
+ -- Robert Ian Hawdon <mail@robertianhawdon.me.uk>  Mon, 17 Jan 2022 00:59:58 +0000
+
 dfshow (0.9.3-1~ppa1) unstable; urgency=low
 
   * Fixes issue where editor and pager doesn't launch on some systems
