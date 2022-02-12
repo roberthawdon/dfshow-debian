@@ -1,3 +1,11 @@
+dfshow (0.9.5-1~ppa1) unstable; urgency=low
+
+  * Fixes issue where opening a file with single quotes may crash Show
+  * Fixes issue where parent directories aren't being created correctly, which
+    would also prevent user configuration being saved
+
+ -- Robert Ian Hawdon <mail@robertianhawdon.me.uk>  Sat, 12 Feb 2022 14:13:47 +0000
+
 dfshow (0.9.4-1~ppa1) unstable; urgency=low
 
   * Fixes bug which prevents show launching editor or pager set by ENV values
