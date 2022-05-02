@@ -1,3 +1,12 @@
+dfshow (0.9.6-1~ppa1) unstable; urgency=low
+
+  * Fixes issue where a trailing slash would be added to the pwd when aborting
+    the Make Directory or Touch File prompt
+  * Fixes issue where parent directories would still fail to create on some
+    systems
+
+ -- Robert Ian Hawdon <robert@hawdon.net>  Sat, 02 May 2022 19:09:35 +0000
+
 dfshow (0.9.5-1~ppa1) unstable; urgency=low
 
   * Fixes issue where opening a file with single quotes may crash Show
