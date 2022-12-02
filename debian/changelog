@@ -1,3 +1,9 @@
+dfshow (0.9.7-1~ppa1) unstable; urgency=low
+
+  * Fixes issue where creating a relative symlink may cause show to crash
+
+ -- Robert Ian Hawdon <robert@hawdon.net>  Mon, 02 Dec 2022 11:33:58 +0000
+
 dfshow (0.9.6-1~ppa1) unstable; urgency=low
 
   * Fixes issue where a trailing slash would be added to the pwd when aborting
