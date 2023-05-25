@@ -1,3 +1,22 @@
+dfshow (0.10.0-1~ppa1) unstable; urgency=low
+
+  * Added support for internationalization
+  * Added British English localization
+  * Added support for updating SELinux context
+  * Added option to show Owner and Group as ID numbers
+  * Made SF part of Show (whilst a standalone SF still exists)
+  * Added option to show inode
+  * Fixes issue where bottom function menu would disappear when the terminal
+    was resized
+  * Fixes issue where some international characters would cause the screen to
+    not completely clear when navigating between directories
+  * Fixes issue were the theme editor (colors) would blank and redraw the
+    entire screen when navigating up and down
+  * Fixed some warnings that would appear at build time
+  * Memory optimizations
+
+ -- Robert Ian Hawdon <robert@hawdon.net>  Thu, 25 May 2023 07:00:01 +0000
+
 dfshow (0.9.7-1~ppa1) unstable; urgency=low
 
   * Fixes issue where creating a relative symlink may cause show to crash

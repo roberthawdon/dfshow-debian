@@ -1,13 +1,14 @@
 Source: dfshow
 Section: utils
 Priority: optional
-Maintainer: Robert Ian Hawdon <mail@robertianhawdon.me.uk>
+Maintainer: Robert Ian Hawdon <robert@hawdon.net>
 Build-Depends: debhelper (>= 8.0.0),
                dh-autoreconf,
                ncurses-dev,
                libncursesw5-dev,
                libconfig-dev,
-               libacl1-dev
+               libacl1-dev,
+               gettext
 Standards-Version: 3.9.4
 Homepage: https://github.com/roberthawdon/dfshow
 #Vcs-Git: git://git.debian.org/collab-maint/dfshow.git
