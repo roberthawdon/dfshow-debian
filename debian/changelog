@@ -1,3 +1,9 @@
+dfshow (0.10.0-12~ppa1) unstable; urgency=low
+
+  * Reworking rules
+
+ -- Robert Ian Hawdon <robert@hawdon.net>  Sat, 27 May 2023 08:27:04 +0000
+
 dfshow (0.10.0-11~ppa1) unstable; urgency=low
 
   * Reworking rules
