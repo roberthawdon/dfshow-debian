@@ -2,24 +2,19 @@
 # -*- makefile -*-
 
 # Uncomment this to turn on verbose mode.
-#export DH_VERBOSE=1
-
-# Target-specific patching for Trusty Tahr
-ifeq ($(shell grep -q "Ubuntu 14.04" /etc/os-release && echo "found"), found)
-	PATCH_TARGET := debian/patches/ubuntu-trust-tahr.patch
-else
-	PATCH_TARGET :=
-endif
+# export DH_VERBOSE=1
 
 %:
 	dh $@ --with autoreconf
 
 override_dh_autoreconf:
-	[ -f "$(PATCH_TARGET)" ] && patch -p1 < $(PATCH_TARGET)
-	dh_autoreconf
+ifeq ($(shell lsb_release -cs),trusty)
+	quilt push 0001-ubuntu-trusty-tahr.patch
+endif
+	NOCONFIGURE=1 dh_autoreconf ./bootstrap
 
 override_dh_auto_configure:
-	dh_auto_configure -- --prefix=/usr --sysconfdir=/etc --datadir=/usr/share 
+	dh_auto_configure -- --prefix=/usr --sysconfdir=/etc --datadir=/usr/share
 
 override_dh_install:
 	dh_install
@@ -27,4 +22,3 @@ override_dh_install:
 	install -Dm644 misc/auto-completion/bash/sf-completion.bash debian/package/share/bash-completion/completions/sf-completion.bash
 	install -Dm644 misc/auto-completion/zsh/_show debian/package/share/zsh/site-functions/_show
 	install -Dm644 misc/auto-completion/zsh/_sf debian/package/share/zsh/site-functions/_sf
-
