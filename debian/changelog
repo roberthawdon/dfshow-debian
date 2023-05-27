@@ -1,3 +1,9 @@
+dfshow (0.10.0-15~ppa1) unstable; urgency=low
+
+  * Added quilt as a dependency
+
+ -- Robert Ian Hawdon <robert@hawdon.net>  Sat, 27 May 2023 20:11:39 +0000
+
 dfshow (0.10.0-14~ppa1) unstable; urgency=low
 
   * Reworking rules for lack of lsb-release command

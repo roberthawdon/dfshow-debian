@@ -9,7 +9,8 @@ Build-Depends: debhelper (>= 8.0.0),
                libconfig-dev,
                libacl1-dev,
                gettext,
-               autopoint
+               autopoint,
+               quilt
 Standards-Version: 3.9.4
 Homepage: https://github.com/roberthawdon/dfshow
 #Vcs-Git: git://git.debian.org/collab-maint/dfshow.git
