@@ -6,21 +6,13 @@
 
 # Target-specific patching for Trusty Tahr
 ifeq ($(shell grep -q "Ubuntu 14.04" /etc/os-release && echo "found"), found)
-	PATCH_TARGET := apply-trusty-patch
-else
-	PATCH_TARGET :=
+	PATCH = $(shell patch -p1 < debian/patches/ubuntu-trust-tahr.patch)
 endif
 
 %:
-	dh $@
-
-apply-trusty-patch:
-	@echo "Applying patch..."
-	@patch -p1 < debian/patches/ubuntu-trust-tahr.patch
+	dh $@ --with autoreconf
 
 override_dh_auto_configure:
-	$(PATCH_TARGET)
-	autoreconf -i
 	dh_auto_configure -- --prefix=/usr --sysconfdir=/etc --datadir=/usr/share 
 
 override_dh_install:
