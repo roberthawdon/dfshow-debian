@@ -15,7 +15,8 @@ endif
 	dh $@  --with autoreconf
 
 override_dh_auto_configure:
-	$(PATCH_TARGET) && dh_auto_configure -- --prefix=/usr --sysconfdir=/etc --datadir=/usr/share 
+	$(PATCH_TARGET)
+	dh_auto_configure -- --prefix=/usr --sysconfdir=/etc --datadir=/usr/share 
 
 override_dh_install:
 	dh_install
@@ -25,4 +26,4 @@ override_dh_install:
 	install -Dm644 misc/auto-completion/zsh/_sf debian/package/share/zsh/site-functions/_sf
 
 apply-trusty-patch:
-	patch -p1 < patches/ubuntu-trust-tahr.patch
+	patch -p1 < debian/patches/ubuntu-trust-tahr.patch
