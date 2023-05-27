@@ -1,3 +1,9 @@
+dfshow (0.10.0-14~ppa1) unstable; urgency=low
+
+  * Reworking rules for lack of lsb-release command
+
+ -- Robert Ian Hawdon <robert@hawdon.net>  Sat, 27 May 2023 20:03:49 +0000
+
 dfshow (0.10.0-13~ppa1) unstable; urgency=low
 
   * Reworking rules

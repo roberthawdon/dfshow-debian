@@ -8,7 +8,7 @@
 	dh $@ --with autoreconf
 
 override_dh_autoreconf:
-ifeq ($(shell lsb_release -cs),trusty)
+ifeq ($(shell grep -q "Ubuntu 14.04" /etc/os-release && echo "found"), found)
 	quilt push 0001-ubuntu-trusty-tahr.patch
 endif
 	NOCONFIGURE=1 dh_autoreconf ./bootstrap
