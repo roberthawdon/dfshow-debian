@@ -1,3 +1,12 @@
+dfshow (0.10.1-1~ppa1) unstable; urgency=low
+
+  * Fixes rare display bug when hiding and unhiding files (mainly affected
+    macOS, but could occur on any system)
+  * Corrected minor spelling and display issue in documentation
+  * Small code cleanup
+
+ -- Robert Ian Hawdon <robert@hawdon.net>  Thu, 01 Jun 2023 03:04:56 +0000
+
 dfshow (0.10.0-16~ppa1) unstable; urgency=low
 
   * Added quilt variables
