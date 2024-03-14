@@ -1,3 +1,15 @@
+dfshow (0.10.2-1~ppa1) unstable; urgency=low
+
+  * Reworked window resize code
+  * Fixed window resizing in sf standalone
+  * Fixed issue where resizing a window would make some menus incorrect
+  * Fixed issue where resizing when viewing a file in show would incorrectly print the last view in show
+  * Fixed issue where resizing in both "colors" and settings menu would incorrectly print the last view in show
+  * Fixed issue where temporary settings would be reset when opening setting menu
+  * Corrected documentation
+
+ -- Robert Ian Hawdon <robert@hawdon.net>  Thu, 14 Mar 2024 19:02:27 +0000
+
 dfshow (0.10.1-1~ppa1) unstable; urgency=low
 
   * Fixes rare display bug when hiding and unhiding files (mainly affected
