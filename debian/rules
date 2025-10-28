@@ -4,17 +4,8 @@
 # Uncomment this to turn on verbose mode.
 # export DH_VERBOSE=1
 
-export QUILT_PATCHES=debian/patches
-export QUILT_REFRESH_ARGS="-p ab --no-timestamps --no-index"
-
 %:
-	dh $@ --with autoreconf
-
-override_dh_autoreconf:
-ifeq ($(shell grep -q "Ubuntu 14.04" /etc/os-release && echo "found"), found)
-	quilt push 0001-ubuntu-trusty-tahr.patch
-endif
-	NOCONFIGURE=1 dh_autoreconf ./bootstrap
+	dh $@
 
 override_dh_auto_configure:
 	dh_auto_configure -- --prefix=/usr --sysconfdir=/etc --datadir=/usr/share

@@ -1,3 +1,13 @@
+dfshow (1.0.0-1~ppa1) stable; urgency=low
+
+  * Moving files between mountpoints enabled by default
+  * Added Mouse Support
+  * Added Better support for CRLF line endings
+  * Improved screen resizing functions
+  * Changed behaviour to scroll wrapped lines in SF
+
+ -- Robert Ian Hawdon <robert@hawdon.net>  Tue, 28 Oct 2025 23:56:40 +0000
+
 dfshow (0.10.3-1~ppa1) unstable; urgency=low
 
   * Fix buffer overflow errors with FORTIFY_SOURCE=3
