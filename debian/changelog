@@ -1,4 +1,4 @@
-dfshow (1.0.0-1~ppa1) stable; urgency=low
+dfshow (1.0.0-1~ppa1) unstable; urgency=low
 
   * Moving files between mountpoints enabled by default
   * Added Mouse Support
